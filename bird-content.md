@@ -7,27 +7,23 @@ Number Three
 
 --
 
-# Finding an 'Extinct' New Zealand Bird
+# Finding an ‘Extinct’ New Zealand Bird
 
-### Rediscovered by a Persevering Doctor, the Flightless, Colorful Takahe, or 'Wanderer', Struggles to Survive
+## Rediscovered by a Persevering Doctor, the Flightless, Colorful Takahe, or ‘Wanderer’, Struggles to Survive
 
-##### By R. V. Francis Smith
-
-
+### By R. V. Francis Smith
 
 In New Zealand's rugged Fiordland a bird thought extinct for fifty years is struggling for survival. Behind the rare species in its fight for life is all the protective power of the Dominion Government.
 
-Rediscovery of this flightless bird, the large, brilliant-hued native rail which the Maoris called takahea, meaning "wandering at large," excited almost as much interest in New Zealand as discovery of a living passenger pigeon would arouse in America.
+Rediscovery of this flightless bird, the large, brilliant-hued native rail which the Maoris called takahea, meaning “wandering at large,” excited almost as much interest in New Zealand as discovery of a living passenger pigeon would arouse in America.
 
-To zoologists and bird lovers throughout the world, reappearance of takahea, now called the takahe, was a notable event. They had a scientific name for the creature–Notornis hochstetteri, the first half of which means "bird of the south"–but they knew tantalizingly little about it and had considered it lost in the limbo of vanished species.
+To zoologists and bird lovers throughout the world, reappearance of takahea, now called the takahe, was a notable event. They had a scientific name for the creature–*Notornis hochstetteri*, the first half of which means “bird of the south”–but they knew tantalizingly little about it and had considered it lost in the limbo of vanished species.
 
 To the rediscoverer, Dr. G. B. Orbell, a physician of Invercargill, New Zealand, the dramatic sight of a takahe alive came as the reward of years of patient and systematic search. Only four of the birds were known to science when he made his discovery on the shore of a lake in what is now called Notornis Valley. Since August, 1898, there had been no authentic report of one being caught, or even seen.
 
+## Futile Wings Have Three-Foot Span
 
-
-Futile Wings Have Three-Foot Span
-
-A primitive type of large moor hen found only in New Zealand, the takahe is unlike any other member of the world-wide rail family to which it belongs. For example, despite its membership in an aquatic family, it avoids swamps and rivers. It does, however, share some of the clan 's characteristics, such as a large frontal shield.
+A primitive type of large moor hen found only in New Zealand, the takahe is unlike any other member of the world-wide rail family to which it belongs. For example, despite its membership in an aquatic family, it avoids swamps and rivers. It does, however, share some of the clan’s characteristics, such as a large frontal shield.
 
 The full-grown takahe stands some twenty inches high and weighs about six pounds. The wings, though incapable of flight, may have a three-foot span.
 
@@ -39,73 +35,74 @@ In contrast to its showy parents, the young takahe wears only a uniform, soft bl
 
 In New Zealand's ornithological history, extinction, or near extinction, has been the lot of many species as a result of settlement.
 
-"It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years."
-
-—Heather and Robertson
+>“It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years.”
+>
+><cite>—Heather and Robertson</cite>
 
 Originally, native birds had no enemies, and the vegetation which affords them cover was not subject to browsing by animals. Under these favorable conditions many unusual forms of life, including birds of little or no power of flight, were able to survive and thrive.
 
 
 <!-- Image: carrying-capacity.png -->
 
+![carrying capacity](carrying-capacity.png "Carrying Capacity")
+
 Estimated carrying capacity of islands with Takahe.
 
 
+## Vanished Birds Include 12-Foot Moa
 
-Vanished Birds Include 12-Foot Moa
-
-Before the arrival of Capt. James Cook in 1769, birds were the dominant land vertebrates. The only land mammals were the dog, a Polynesian rat, and two species of bats. The dog and rat had been introduced by the Maoris on their second migration, about A. D. 1150. *
+Before the arrival of Capt. James Cook in 1769, birds were the dominant land vertebrates. The only land mammals were the dog, a Polynesian rat, and two species of bats. The dog and rat had been introduced by the Maoris on their second migration, about A. D. 1150.*
 
 After the Maoris had caused the extinction of the huge flightless moa, one species of which was twelve feet high, European settlement brought about more extensive changes. Ferrets, stoats, and weasels were introduced to control a plague of rabbits, and these, with cats, dogs, and other predators, virtually sealed the fate of numerous native species, among them the takahe.
 
-The first living takahe known to Europeans was purposely killed and eaten. It was caught by a sealing gang on Resolution Island, near the southwest end of South Island , in 1849. Two years later a party of Maoris caught a second bird in Thompson Sound, about forty miles farther north.
+The first living takahe known to Europeans was purposely killed and eaten. It was caught by a sealing gang on Resolution Island, near the southwest end of South Island, in 1849. Two years later a party of Maoris caught a second bird in Thompson Sound, about forty miles farther north.
 
-Luckily, the skins of both birds were obtained by Mr. W. D. B. Mantell, who in 1847 had discovered the semi fossil remains of the North Island variety (duly named Notornis mantelli by Sir Richard Owen, of London). The skins were sent to the British Museum.
+Luckily, the skins of both birds were obtained by Mr. W. D. B. Mantell, who in 1847 had discovered the semi fossil remains of the North Island variety (duly named *Notornis mantelli* by Sir Richard Owen, of London). The skins were sent to the British Museum.
 
 Twenty-eight years passed before another specimen appeared. A rabbiter's dog caught it near the south end of Lake Te Anau. The bird was destined for the cooking pot when it was rescued by a farm manager and eventually sold to a museum in Dresden, Germany, for £105.
 
-After close examination, Dr. Adolph B. Meyer of the Dresden museum found that this bird was sufficiently different from the North Island semi fossil form found by Mantell to warrant a distinct name. Accordingly, the name Notornis hochstetteri was given the present species.
+After close examination, Dr. Adolph B. Meyer of the Dresden museum found that this bird was sufficiently different from the North Island semi fossil form found by Mantell to warrant a distinct name. Accordingly, the name *Notornis hochstetteri* was given the present species.
 
 The fourth specimen was caught by a dog on the shore of Middle Fiord of Lake Te Anau in 1898. The bird was bought by the Government for £250 to ensure that it remained in New Zealand. Preserved in the Otago Museum at Dunedin, it still is the only mounted specimen in the country, for no more takahe were known until Dr. Orbell's discovery.
 
-Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahe from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, reiused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahe to the scene of its last stand in one of the wildest parts of the Dominion.
+Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahe from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, refused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahe to the scene of its last stand in one of the wildest parts of the Dominion.
 
 
 <!-- Image: new-zealand.png -->
-
+![New Zealand](new-zealand.png "New Zealand")
 New Zealand Fiordland Shelters the Takahe, or Notornis, a Bird Long Thought Extinct
 
 
 
-A Thirty-Year Quest Begins
+## A Thirty-Year Quest Begins
 
 Dr. Orbell's interest in the creature began more than thirty years ago when, as a boy, he found an old photograph showing the museum bird in a case. His mother told its story and explained that the bird was supposed to be extinct.
 
-That word "supposed" stimulated Dr. Orbell's adventurous spirit, and he learned all he could about the species. From game rangers and from men who had probed the fastnesses of Fiordland, from hearsay and from stories told around campfires on numerous hunting trips, Dr. Orbell picked up fragments of information about possible takahe hiding places.
+That word “supposed” stimulated Dr. Orbell's adventurous spirit, and he learned all he could about the species. From game rangers and from men who had probed the fastnesses of Fiordland, from hearsay and from stories told around campfires on numerous hunting trips, Dr. Orbell picked up fragments of information about possible takahe hiding places.
 
 In 1945 Dr. Orbell built a summer home at Lake Te Anau, where two of the birds had been caught. The question of the takahe's existence and whereabouts was always with him, but he seldom mentioned the matter except jokingly or as a bait to catch information. In this way he learned that a man who knew the country round about always carried his rifle loaded when in a certain area.
 
-"It might be worth £400 to £500," the man said with a knowing air.
+“It might be worth £400 to £500,” the man said with a knowing air.
 
 <!-- Image: bent-billiard-pipe.jpg -->
-
+![Dr. Orbell](bent-billiard-pipe.jpg "Dr. Orbell (right)")
 Dr. Orbell (Right) Brought the Takahe Back to Human Ken
 
 
 
-Severe Winters Limit Food
+## Severe Winters Limit Food
 
 From observations over three nesting seasons, it seems that most, if not ail, of the birds in the main Notornis Valley breed yearly, but very few chicks are hatched and raised. In the 1949-50 season, 40 percent of the observed eggs were totally infertile, only three chicks were hatched, and by February, 1950, only one remained alive. It is now known, however, that several birds besides those under observation were nesting.
 
 The availability of snow grass and other food during severe winters, when the area is deeply covered with snow, is an important factor in the survival of the species. A dead adult bird, untouched by predators, was found in the main valley in the spring of 1949. This and other complete skeletons have suggested that starvation is a not uncommon cause of death.
 
-Every endeavor is being made to preserve these contemporaries of New Zealand's extinct giant moa, swan, and eagle, interesting creatures sorely missed. But if measures to combat predators prove ineffective, if nesting shelter and food suffer serious depletion, if a severe winter strikes, or if infertility increases-if anyone or a combination of these mishaps overtakes back-to-the-wall notornis -then the species must inevitably join the heath hen, the dodo, the great auk, and others that are lost to the world forever.
+Every endeavor is being made to preserve these contemporaries of New Zealand’s extinct giant moa, swan, and eagle, interesting creatures sorely missed. But if measures to combat predators prove ineffective, if nesting shelter and food suffer serious depletion, if a severe winter strikes, or if infertility increases—if anyone or a combination of these mishaps overtakes back-to-the-wall notornis —then the species must inevitably join the heath hen, the dodo, the great auk, and others that are lost to the world forever.
 
 
 
-New Zealand
+## New Zealand
 
-New Zealand is a fertile and mountainous group of islands in the southwestern Pacific Ocean. "It is a land uplifted high," wrote Abel Tasman, a Dutch navigator who was the first European to sight New Zealand, in 1642. Snowy peaks, fjord-scarred shores, and pastures dotted with sheep define this country.
+New Zealand is a fertile and mountainous group of islands in the southwestern Pacific Ocean. “It is a land uplifted high,” wrote Abel Tasman, a Dutch navigator who was the first European to sight New Zealand, in 1642. Snowy peaks, fjord-scarred shores, and pastures dotted with sheep define this country.
 
 New Zealand, a parliamentary democracy modeled on that of the United Kingdom, has been a self-governing British dominion since 1907. It became a founding member of the British Commonwealth in 1926.
 
@@ -115,17 +112,17 @@ The export-driven country, whose chief trading partner used to be the United Kin
 
 New Zealand plays an active role in helping democratic nations and emerging Pacific island economies. It sent troops to East Timor when violence broke out in 1999, and it provided millions of dollars to the South Pacific island of Niue after it was devastated by a tropical cyclone in 2004. Niue and the Cook Islands enjoy a status of self-government in free association with New Zealand.
 
-Fast Facts
+### Fast Facts
 
-Population: 4,107,000
-Capital: Wellington; 343,000
-Area: 270,534 Square Kilometers (104,454 Square Miles)
-Language: English, Maori
-Religion: Protestant, Roman Catholic
-Currency: New Zealand Dollar
-Life Expectancy: 78
-GDP per Capita: U.S. $20,100
-Literacy Percent: 99
+-	Population: 4,107,000
+-	Capital: Wellington; 343,000
+-	Area: 270,534 Square Kilometers (104,454 Square Miles)
+-	Language: English, Maori
+-	Religion: Protestant, Roman Catholic
+-	Currency: New Zealand Dollar
+-	Life Expectancy: 78
+-	GDP per Capita: U.S. $20,100
+-	Literacy Percent: 99
 
 
 
