@@ -1,0 +1,86 @@
+body {
+    width: 70%;
+    margin: auto;
+    color: #302f30;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.998em;
+    color: #ec008c;
+  }
+  
+  h2 {
+      font-family: 'Oswald', sans-serif;
+    font-size: 1.999em;
+      color: #ec008c;
+  }
+  
+  p {
+      font-family: 'Lora', serif;
+    font-size: 1em;
+  }
+  
+  section {
+    border: 1px solid #00aeef;
+    padding: 1em;
+    /* transform: rotate(2deg); */
+    background-color: #f4f2f2;
+  }
+  
+  /*
+  img {
+    transform: rotate(5deg);
+  }
+  */
+  
+  .hidden-text {
+      color: #ec008c;
+  }
+  
+  .hidden-text::after {
+    display: inline-block;
+    color: #00aeef;
+    opacity: 0.4;
+    font-style: italic;
+    transform: translateX(-100%);
+    position: absolute;
+  }
+  
+  /*
+  .hidden-text::before {
+    display: inline-block;
+    color: #ec008c;
+    content: '‘Extinct’';
+    transform: translateX(50%);
+  }
+  
+  .hidden-text {
+    margin-left: -1.75em;
+    margin-right: -1.5em;
+  }
+  */
+  
+  #t-takahe::after {
+      content: 'Takahe';
+  }
+  
+  #t-takahea::after {
+      content: '“wandering at large”';
+  }
+
+  #t-notornis::after {
+    content: '“bird of the south”';
+  }
+
+  #t-name::after {
+    content: 'Notornis hochstetteri';
+}
+
+  #t-shelters::after {
+    content: 'the Takahē, or Notornis';
+}
+
+#t-extinction::after {
+    content: 'extinct';
+}
