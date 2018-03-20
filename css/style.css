@@ -1,3 +1,13 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+
+/* GENERAL STYLING */
 body {
     width: 70%;
     margin: auto;
@@ -11,13 +21,13 @@ body {
   }
   
   h2 {
-      font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.999em;
-      color: #ec008c;
+    color: #ec008c;
   }
   
   p {
-      font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
   }
   
@@ -27,6 +37,67 @@ body {
     /* transform: rotate(2deg); */
     background-color: #f4f2f2;
   }
+
+
+/* CURSOR */
+#circle-hover {
+  display: block;
+  position: absolute;
+  transition: all .02s linear;/*Change the time here depending on how fast you want the big circle to follow the cursor */
+  transition: transform 0.5 ease-in-out;
+  width: 250px;
+  height: 250px;
+  margin-top: -125px;
+  margin-left: -125px;
+  z-index: 2;
+  text-align: center;
+  border: 1px solid #ec008c;
+  border-radius: 50%;
+  transform: scale(.5);
+  background: transparent;
+}
+
+#circle {
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  margin-top: -75px;
+  margin-left: -75px;
+  background-color: #7950F2;
+  border-radius: 50%;
+  z-index: 1;
+   background-color: #ec008c;
+  mix-blend-mode: multiply;
+  opacity: .8;
+}
+
+#cursor.on-link #circle-hover {
+  transform: scale(1);
+  background: rgba(#ec008c, 1);
+  opacity: .3;
+}
+
+
+body {
+  width: 70%;
+  margin: auto;
+  /*background-color: #00aeef; */
+  color: #302f30;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a {
+  z-index: 100;
+  position: relative;
+}
+
+
+
   
   /*
   img {
