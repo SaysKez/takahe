@@ -9,12 +9,19 @@
 
 /* GENERAL STYLING */
 body {
-    width: 70%;
+    width: 100%;
     margin: auto;
     color: #302f30;
-    background-image:url("../images/background/creampaper.png");
+    background-color: #f4f2f2;
+    /* background-image:url("../images/background/creampaper.png");*/
     /*  This pattern is downloaded from www.subtlepatterns.com 
     If you need more, that's where to get'em. */
+    overflow-x: hidden;
+  }
+
+  p, h1, h2, h3, h4, ul, table {
+    width: 70%;
+    margin: auto;
   }
   
   h1 {
@@ -42,10 +49,6 @@ body {
   } */
   
   section {
-    border: 1px solid #00aeef;
-    padding: 1em;
-    /* transform: rotate(2deg); */
-    background-color: #f4f2f2;
     margin-bottom: 5em;
   }
 
@@ -60,7 +63,7 @@ body {
   height: 250px;
   margin-top: -125px;
   margin-left: -125px;
-  z-index: 2;
+  z-index: 99;
   text-align: center;
   border: 1px solid #ec008c;
   border-radius: 50%;
@@ -76,9 +79,8 @@ body {
   height: 150px;
   margin-top: -75px;
   margin-left: -75px;
-  background-color: #7950F2;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 98;
    background-color: #ec008c;
   mix-blend-mode: multiply;
   opacity: .8;
@@ -101,12 +103,48 @@ a {
 
 
 /* INTRODUCTION */
+#intro {
+  position: relative;
+}
 
-section {
+#img1 {
+  position: absolute;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  right: -10%;
+  transform: rotate(9deg);
+}
+
+#img2 {
+  width: 50%;
+  transform: rotate(3deg);
+}
+
+#img3 {
+  position: absolute;
+  width: 50%;
+  z-index: 1;
+  left: 10em;
+  top: 30em;
+  transform: rotate(-3deg);
+}
+
+
+
+
+blockquote {
   background-image: url("../images/background/paper.png");
-  border: none;
-  background-size: contain;
-  /* transform: rotate(2deg); */
+  background-size: cover;
+  padding: 1em;
+  margin: 3em auto;
+  -webkit-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+}
+
+img {
+  margin: 3em auto;
   -webkit-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
 -moz-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
 box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
