@@ -12,6 +12,9 @@ body {
     width: 70%;
     margin: auto;
     color: #302f30;
+    background-image:url("../images/background/creampaper.png");
+    /*  This pattern is downloaded from www.subtlepatterns.com 
+    If you need more, that's where to get'em. */
   }
   
   h1 {
@@ -98,6 +101,7 @@ a {
 
 
 /* INTRODUCTION */
+
 section {
   background-image: url("../images/background/paper.png");
   border: none;
