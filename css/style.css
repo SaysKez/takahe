@@ -1,63 +1,55 @@
+@charset "UTF-8";
 /* CSS RESET */
 * {
   padding: 0;
   margin: 0;
   font-size: 100%;
-  line-height: 1.5em;
-}
-
+  line-height: 1.5em; }
 
 /* GENERAL STYLING */
 body {
-    width: 100%;
-    margin: auto;
-    color: #302f30;
-    background-color: #f4f2f2;
-    /* background-image:url("../images/background/creampaper.png");*/
-    /*  This pattern is downloaded from www.subtlepatterns.com 
-    If you need more, that's where to get'em. */
-    overflow-x: hidden;
-  }
+  width: 100%;
+  margin: auto;
+  color: #302f30;
+  background-color: #f4f2f2;
+  /* background-image:url("../images/background/creampaper.png");*/
+  /*  This pattern is downloaded from www.subtlepatterns.com 
+      If you need more, that's where to get'em. */
+  overflow-x: hidden; }
 
-  p, h1, h2, h3, h4, ul, table {
-    width: 70%;
-    margin: auto;
-  }
-  
-  h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3.998em;
-    color: #ec008c;
-  }
-  
-  h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.999em;
-    color: #ec008c;
-  }
-  
-  p, p .hidden-text {
-    font-family: 'Lora', serif;
-    font-size: 1em;
-    line-height: 1.75em;
-  }
+p, h1, h2, h3, h4, ul, table {
+  width: 70%;
+  margin: auto; }
 
-  /*
-  p {
-    color: #000;
-    opacity: .7;
-  } */
-  
-  section {
-    margin-bottom: 5em;
-  }
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.998em;
+  color: #ec008c; }
 
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.999em;
+  color: #ec008c; }
+
+p, p .hidden-text {
+  font-family: 'Lora', serif;
+  font-size: 1em;
+  line-height: 1.75em; }
+
+/*
+    p {
+      color: #000;
+      opacity: .7;
+    } */
+section {
+  margin-bottom: 5em; }
 
 /* CURSOR */
 #circle-hover {
   display: block;
   position: absolute;
-  transition: all .01s linear;/*Change the time here depending on how fast you want the big circle to follow the cursor */
+  transition: all .01s linear;
+  /*Change the time here depending on how fast you want the big circle to follow the cursor */
   transition: transform 0.5 ease-in-out;
   width: 250px;
   height: 250px;
@@ -67,9 +59,8 @@ body {
   text-align: center;
   border: 1px solid #ec008c;
   border-radius: 50%;
-  transform: scale(.5);
-  background: transparent;
-}
+  transform: scale(0.5);
+  background: transparent; }
 
 #circle {
   display: block;
@@ -81,31 +72,25 @@ body {
   margin-left: -75px;
   border-radius: 50%;
   z-index: 98;
-   background-color: #ec008c;
+  background-color: #ec008c;
   mix-blend-mode: multiply;
-  opacity: .8;
-}
+  opacity: .8; }
 
 #cursor.on-link #circle-hover {
   transform: scale(1);
-  background: rgba(#ec008c, 1);
-  opacity: .3;
-}
+  background: #ec008c;
+  opacity: .3; }
 
 a:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 a {
   z-index: 100;
-  position: relative;
-}
-
+  position: relative; }
 
 /* INTRODUCTION */
 #intro {
-  position: relative;
-}
+  position: relative; }
 
 #img1 {
   position: absolute;
@@ -113,13 +98,11 @@ a {
   z-index: 1;
   top: 0;
   right: -10%;
-  transform: rotate(9deg);
-}
+  transform: rotate(9deg); }
 
 #img2 {
   width: 50%;
-  transform: rotate(3deg);
-}
+  transform: rotate(3deg); }
 
 #img3 {
   position: absolute;
@@ -127,85 +110,66 @@ a {
   z-index: 1;
   left: 10em;
   top: 30em;
-  transform: rotate(-3deg);
-}
-
-
-
+  transform: rotate(-3deg); }
 
 blockquote {
   background-image: url("../images/background/paper.png");
   background-size: cover;
   padding: 1em;
   margin: 3em auto;
-  -webkit-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
--moz-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-}
+  -webkit-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15); }
 
 img {
   margin: 3em auto;
-  -webkit-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
--moz-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-}
+  -webkit-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15); }
 
+/*
+    img {
+      transform: rotate(5deg);
+    }
+    */
+.hidden-text {
+  color: #ec008c; }
 
+.hidden-text::after {
+  display: inline-block;
+  color: #00aeef;
+  opacity: 0.4;
+  font-style: italic;
+  transform: translateX(-100%);
+  position: absolute; }
 
-  
-  /*
-  img {
-    transform: rotate(5deg);
-  }
-  */
-  
-  .hidden-text {
+/*
+    .hidden-text::before {
+      display: inline-block;
       color: #ec008c;
-  }
-  
-  .hidden-text::after {
-    display: inline-block;
-    color: #00aeef;
-    opacity: 0.4;
-    font-style: italic;
-    transform: translateX(-100%);
-    position: absolute;
-  }
-  
-  /*
-  .hidden-text::before {
-    display: inline-block;
-    color: #ec008c;
-    content: '‘Extinct’';
-    transform: translateX(50%);
-  }
-  
-  .hidden-text {
-    margin-left: -1.75em;
-    margin-right: -1.5em;
-  }
-  */
-  
-  #t-takahe::after {
-      content: 'Takahe';
-  }
-  
-  #t-takahea::after {
-      content: '“wandering at large”';
-  }
+      content: '‘Extinct’';
+      transform: translateX(50%);
+    }
+    
+    .hidden-text {
+      margin-left: -1.75em;
+      margin-right: -1.5em;
+    }
+    */
+#t-takahe::after {
+  content: 'Takahe'; }
 
-  #t-notornis::after {
-    content: '“bird of the south”';
-  }
+#t-takahea::after {
+  content: '“wandering at large”'; }
 
-  #t-name::after {
-    content: 'Notornis hochstetteri';
-}
+#t-notornis::after {
+  content: '“bird of the south”'; }
 
-  #t-shelters::after {
-    content: 'the Takahē, or Notornis';
-}
+#t-name::after {
+  content: 'Notornis hochstetteri'; }
+
+#t-shelters::after {
+  content: 'the Takahē, or Notornis'; }
 
 #t-extinction::after {
-    content: 'extinct';
-}
+  content: 'extinct'; }
