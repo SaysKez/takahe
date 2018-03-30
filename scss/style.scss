@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 /* CSS RESET */
 * {
     padding: 0;
@@ -5,16 +7,14 @@
     font-size: 100%;
     line-height: 1.5em;
   }
-
-  $padding: #ec008c;
   
   
   /* GENERAL STYLING */
   body {
       width: 100%;
       margin: auto;
-      color: #302f30;
-      background-color: #f4f2f2;
+      color: $text-color;
+      background-color: $background-color;
       /* background-image:url("../images/background/creampaper.png");*/
       /*  This pattern is downloaded from www.subtlepatterns.com 
       If you need more, that's where to get'em. */
@@ -27,19 +27,19 @@
     }
     
     h1 {
-      font-family: 'Playfair Display', serif;
+      font-family: $title;
       font-size: 3.998em;
-      color: #ec008c;
+      color: $cover-color;
     }
     
     h2 {
-      font-family: 'Oswald', sans-serif;
+      font-family: $headings;
       font-size: 1.999em;
-      color: $padding;
+      color: $cover-color;
     }
     
     p, p .hidden-text {
-      font-family: 'Lora', serif;
+      font-family: $body-text;
       font-size: 1em;
       line-height: 1.75em;
     }
@@ -67,7 +67,7 @@
     margin-left: -125px;
     z-index: 99;
     text-align: center;
-    border: 1px solid #ec008c;
+    border: 1px solid $cover-color;
     border-radius: 50%;
     transform: scale(.5);
     background: transparent;
@@ -83,24 +83,24 @@
     margin-left: -75px;
     border-radius: 50%;
     z-index: 98;
-     background-color: #ec008c;
+     background-color: $cover-color;
     mix-blend-mode: multiply;
     opacity: .8;
   }
   
   #cursor.on-link #circle-hover {
     transform: scale(1);
-    background: rgba(#ec008c, 1);
+    background: rgba($cover-color, 1);
     opacity: .3;
-  }
-  
-  a:hover {
-    cursor: pointer;
   }
   
   a {
     z-index: 100;
     position: relative;
+    
+    &:hover {
+        cursor: pointer;
+    }
   }
   
   
@@ -140,16 +140,12 @@
     background-size: cover;
     padding: 1em;
     margin: 3em auto;
-    -webkit-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-  box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+    @include shadow();
   }
   
   img {
     margin: 3em auto;
-    -webkit-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
-  box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+    @include shadow();
   }
   
   
@@ -162,12 +158,12 @@
     */
     
     .hidden-text {
-        color: #ec008c;
+        color: $cover-color;
     }
     
     .hidden-text::after {
       display: inline-block;
-      color: #00aeef;
+      color: $reveal-color;
       opacity: 0.4;
       font-style: italic;
       transform: translateX(-100%);
@@ -177,7 +173,7 @@
     /*
     .hidden-text::before {
       display: inline-block;
-      color: #ec008c;
+      color: $cover-color;
       content: '‘Extinct’';
       transform: translateX(50%);
     }

@@ -22,17 +22,17 @@ p, h1, h2, h3, h4, ul, table {
   margin: auto; }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3.998em;
   color: #ec008c; }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.999em;
   color: #ec008c; }
 
 p, p .hidden-text {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 1em;
   line-height: 1.75em; }
 
@@ -81,12 +81,11 @@ section {
   background: #ec008c;
   opacity: .3; }
 
-a:hover {
-  cursor: pointer; }
-
 a {
   z-index: 100;
   position: relative; }
+  a:hover {
+    cursor: pointer; }
 
 /* INTRODUCTION */
 #intro {
@@ -146,7 +145,7 @@ img {
 /*
     .hidden-text::before {
       display: inline-block;
-      color: #ec008c;
+      color: $cover-color;
       content: '‘Extinct’';
       transform: translateX(50%);
     }

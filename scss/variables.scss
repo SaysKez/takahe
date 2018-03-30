@@ -1,0 +1,26 @@
+// COLOURS
+$pink: #ec008c;
+$blue: #00aeef;
+$white: #f4f2f2;
+$black: #302f30;
+
+
+// TEXT COLOURS
+$reveal-color: $blue;
+$cover-color: $pink;
+$background-color: $white;
+$text-color: $black;
+
+
+// TYPOGRAPHY
+$title: 'Playfair Display', serif;
+$headings: 'Oswald', sans-serif;
+$body-text: 'Lora', serif;
+
+
+// SHADOW
+@mixin shadow() {
+    -webkit-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+    box-shadow: 4px 7px 14px 0px rgba(0,0,0,0.15);
+}
