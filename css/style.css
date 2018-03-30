@@ -137,7 +137,7 @@ img {
 .hidden-text::after {
   display: inline-block;
   color: #00aeef;
-  opacity: 0.4;
+  opacity: 0.5;
   font-style: italic;
   transform: translateX(-100%);
   position: absolute; }
