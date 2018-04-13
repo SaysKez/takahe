@@ -1,4 +1,5 @@
 //CURSOR
+/* Thanks for the help @tajdidr */
 $('body').mouseover(function() {
     $(this).css({
       cursor: 'none'
