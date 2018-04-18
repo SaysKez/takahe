@@ -55,7 +55,7 @@
                 <h2>Reappearance of the Colourful Bird</h2>
                 <!-- Reeappearance of the Colourful bird -->
 
-                <img src="images/orbell.png" alt="test" id="img1">
+                <img src="images/maori7.png" alt="test" id="img1">
 
                 <p>In New Zealand's rugged Fiordland a bird thought extinct for fifty years is struggling for survival. Behind the rare species in its fight for life is all the protective power of the Dominion Government.</p>
 
@@ -65,8 +65,8 @@
 
                 <p>To the rediscoverer, Dr. G. B. Orbell, a physician of Invercargill, New Zealand, the dramatic sight of a takahē alive came as the reward of years of patient and systematic search. Only four of the birds were known to science when he made his discovery on the shore of a lake in what is now called Notornis Valley. Since August, 1898, there had been no authentic report of one being caught, or even seen.</p>
            
-                <img src="images/test.png" alt="test" id="img2">
-                <img src="images/bone-chartv10.png" alt="test" id="img3">
+                <img src="images/landscape.png" alt="test" id="img2">
+                <img src="images/mountains5.png" alt="test" id="img3">
 
             </section>
 
@@ -154,10 +154,39 @@
                 <p>Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahē from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, refused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahē to the scene of its last stand in one of the wildest parts of the Dominion.</p>
             </section>
 
+    <div id="map"></div>
+    <style>
+        #map {
+            display: block;
+            margin: auto;
+          width: 80%;
+          height: 400px;
+          background-color: grey;
+        }
+      </style>
+    <script>
+      function initMap() {
+        var mm = {lat:  -45.218867, lng: 167.497489};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: mm,
+          disableDefaultUI: true,
+          styles:[{"featureType":"all","elementType":"geometry.fill","stylers":[{"color":"#ff4aff"}]},{"featureType":"landscape.natural.landcover","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#ba34ba"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#d947d9"}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#f585f5"}]},{"featureType":"administrative.locality","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#57f4ff"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#45f3ff"}]},{"featureType":"administrative.locality","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]}]
+        });
+        var marker = new google.maps.Marker({
+          position: mm,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq-GM23mAFvUJ9qqr_sH4MfQVtubrsYh4&callback=initMap">
+    </script>
+<!--
             <aside>
                 <img src="images/new-zealand.png" alt="New Zealand" title="New Zealand" />
                 <p>New Zealand Fiordland Shelters <span class="hidden-text" id="t-shelters">a Bird Long Thought Extinct</span></p>
-            </aside>
+            </aside> -->
 
             <section id="quest">
                 <h2>A Thirty-Year Quest Begins</h2>
@@ -170,7 +199,7 @@
 
                 <p>“It might be worth £400 to £500,” the man said with a knowing air.</p>
 
-                <img src="images/bent-billiard-pipe.jpg" alt="Dr. Orbell" title="Dr. Orbell (right)" />
+                <img src="images/orbell1.png" alt="Dr. Orbell" title="Dr. Orbell (right)" />
                 <p>Dr. Orbell (Right) Brought the Takahē Back to Human Ken</p>
             </section>
 
