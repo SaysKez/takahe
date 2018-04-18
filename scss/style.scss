@@ -22,6 +22,10 @@
       If you need more, that's where to get'em. */
       overflow-x: hidden;
     }
+
+    h1, h2, h3, h4 {
+      text-align: center;
+    }
   
     p, h1, h2, h3, h4, ul, table {
       width: 70%;
@@ -54,6 +58,26 @@
     
     section {
       margin-bottom: 5em;
+    }
+
+
+    /* PHOTOS */
+    blockquote {
+      background-image: url("../images/background/paper.png");
+      background-size: cover;
+      padding: 1em;
+      margin: 3em auto;
+      @include shadow();
+    }
+    
+    .photo {
+      margin: 3em auto;
+      @include shadow();
+    }
+
+    .object {
+      display: block;
+      margin: auto;
     }
   
   
@@ -104,6 +128,9 @@
         cursor: pointer;
     }
   }
+
+
+  /* HEADER */
   
   
   /* INTRODUCTION */
@@ -172,20 +199,9 @@
 }
 
 
+
   
-  
-  blockquote {
-    background-image: url("../images/background/paper.png");
-    background-size: cover;
-    padding: 1em;
-    margin: 3em auto;
-    @include shadow();
-  }
-  
-  img {
-    margin: 3em auto;
-    @include shadow();
-  }
+
   
 
     /*
