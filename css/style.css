@@ -207,6 +207,10 @@ header {
   text-align: left;
   font-style: italic; }
 
+/* FOOTER */
+#binoculars {
+  width: 35%; }
+
 /*
     img {
       transform: rotate(5deg);
