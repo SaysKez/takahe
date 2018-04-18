@@ -17,6 +17,13 @@ $title: 'Playfair Display', serif;
 $headings: 'bebas_neuelight', sans-serif;
 $body-text: 'Lora', serif;
 
+// SPACING
+$heading-margin: 0.5em;
+$object-margin: 0.707em;
+$subtext-margin: 0.354em;
+
+$fourth: 1.414em;
+
 
 // BEBAS
 @mixin bebas() {

@@ -16,8 +16,8 @@
       margin: auto;
       color: $text-color;
       background-color: $background-color;
-      background-image: url("../images/bgtest1.png");
-      background-size: contain;
+      /*background-image: url("../images/bgtest1.png");
+      background-size: contain;*/
       /* background-image:url("../images/background/creampaper.png");*/
       /*  This pattern is downloaded from www.subtlepatterns.com 
       If you need more, that's where to get'em. */
@@ -31,24 +31,39 @@
     p, h1, h2, h3, h4, ul, table {
       width: 70%;
       margin: auto;
+      max-width: 850px;
     }
     
     h1 {
       font-family: $title;
       font-size: 3.998em;
       color: $cover-color;
+      margin-bottom: $heading-margin;
     }
     
     h2 {
       font-family: $headings;
+      letter-spacing: 0.03em;
       font-size: 1.999em;
       color: $cover-color;
+      margin-bottom: $heading-margin;
+    }
+
+    h3 {
+      font-family: $title;
+      color: $cover-color;
+      font-size: $fourth;
+    }
+
+    h4 {
+      margin: $object-margin auto $subtext-margin auto;
     }
     
     p, p .hidden-text {
       font-family: $body-text;
       font-size: 1em;
       line-height: 1.75em;
+      margin-bottom: $fourth;
     }
   
     /*
@@ -58,7 +73,7 @@
     } */
     
     section {
-      margin-bottom: 5em;
+      margin-bottom: 7.5em;
     }
 
 
@@ -78,7 +93,7 @@
 
     .object {
       display: block;
-      margin: auto;
+      margin: $object-margin auto;
     }
   
   
@@ -132,6 +147,22 @@
 
 
   /* HEADER */
+  header {
+    padding: 5em 0em;
+    background-image: url("../images/bgtest2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 7.5em;
+    p {
+      font-size: 80%;
+      text-align: center;
+      font-style: italic;
+    }
+  }
+
+  #glasses {
+    width: 50%;
+  }
   
   
   /* INTRODUCTION */
