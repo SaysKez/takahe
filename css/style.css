@@ -77,13 +77,21 @@ section {
 
 /* PHOTOS */
 blockquote {
-  background-image: url("../images/background/paper.png");
-  background-size: cover;
   padding: 1em;
   margin: 3em auto;
-  -webkit-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15); }
+  width: 110%; }
+  blockquote p {
+    /* background-image: url("../images/background/paper.png");
+      background-size: cover;
+      @include shadow(); */
+    font-family: "Playfair Display", serif;
+    font-size: 140%;
+    font-style: italic;
+    color: #ec008c; }
+  blockquote cite {
+    font-family: "bebas_neuelight", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.4px; }
 
 .photo {
   margin: 3em auto;
@@ -170,13 +178,20 @@ header {
   position: relative; }
 
 #img1 {
-  position: absolute;
   width: 50%;
   z-index: 1;
-  top: 0;
-  right: -10%;
-  transform: rotate(9deg); }
+  transform: rotate(9deg);
+  margin-left: 60%; }
 
+/*
+  #img1 {
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    top: 0;
+    right: -10%;
+    transform: rotate(9deg);
+  }*/
 #img2 {
   width: 50%;
   transform: rotate(3deg); }

@@ -79,12 +79,24 @@
 
     /* PHOTOS */
     blockquote {
-      background-image: url("../images/background/paper.png");
-      background-size: cover;
       padding: 1em;
       margin: 3em auto;
-      @include shadow();
+      width: 110%;
+      p {
+      /* background-image: url("../images/background/paper.png");
+      background-size: cover;
+      @include shadow(); */
+      font-family: $title;
+      font-size: 140%;
+      font-style: italic;
+      color: $cover-color;
     }
+    cite {
+      font-family: $headings;
+      font-style: normal;
+      letter-spacing: 0.4px;
+    }
+  }
     
     .photo {
       margin: 3em auto;
@@ -184,7 +196,15 @@
   #intro {
     position: relative;
   }
+
+  #img1 {
+    width: 50%;
+    z-index: 1;
+    transform: rotate(9deg);
+    margin-left: 60%;
+  }
   
+  /*
   #img1 {
     position: absolute;
     width: 50%;
@@ -192,7 +212,7 @@
     top: 0;
     right: -10%;
     transform: rotate(9deg);
-  }
+  }*/
   
   #img2 {
     width: 50%;
@@ -362,3 +382,6 @@
   #t-extinction::after {
       content: 'extinct';
   }
+
+
+  
