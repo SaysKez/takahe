@@ -8,6 +8,7 @@
     line-height: 1.5em;
   }
   
+  @include bebas();
   
   /* GENERAL STYLING */
   body {
@@ -15,8 +16,8 @@
       margin: auto;
       color: $text-color;
       background-color: $background-color;
-      background-image: url("../images/bgtest1.png");
-      background-size: contain;
+      /*background-image: url("../images/bgtest1.png");
+      background-size: contain;*/
       /* background-image:url("../images/background/creampaper.png");*/
       /*  This pattern is downloaded from www.subtlepatterns.com 
       If you need more, that's where to get'em. */
@@ -30,24 +31,39 @@
     p, h1, h2, h3, h4, ul, table {
       width: 70%;
       margin: auto;
+      max-width: 850px;
     }
     
     h1 {
       font-family: $title;
       font-size: 3.998em;
       color: $cover-color;
+      margin-bottom: $heading-margin;
     }
     
     h2 {
       font-family: $headings;
+      letter-spacing: 0.03em;
       font-size: 1.999em;
       color: $cover-color;
+      margin-bottom: $heading-margin;
+    }
+
+    h3 {
+      font-family: $title;
+      color: $cover-color;
+      font-size: $fourth;
+    }
+
+    h4 {
+      margin: $object-margin auto $subtext-margin auto;
     }
     
     p, p .hidden-text {
       font-family: $body-text;
       font-size: 1em;
       line-height: 1.75em;
+      margin-bottom: $fourth;
     }
   
     /*
@@ -57,18 +73,30 @@
     } */
     
     section {
-      margin-bottom: 5em;
+      margin-bottom: 7.5em;
     }
 
 
     /* PHOTOS */
     blockquote {
-      background-image: url("../images/background/paper.png");
-      background-size: cover;
       padding: 1em;
       margin: 3em auto;
-      @include shadow();
+      width: 110%;
+      p {
+      /* background-image: url("../images/background/paper.png");
+      background-size: cover;
+      @include shadow(); */
+      font-family: $title;
+      font-size: 140%;
+      font-style: italic;
+      color: $cover-color;
     }
+    cite {
+      font-family: $headings;
+      font-style: normal;
+      letter-spacing: 0.4px;
+    }
+  }
     
     .photo {
       margin: 3em auto;
@@ -77,7 +105,7 @@
 
     .object {
       display: block;
-      margin: auto;
+      margin: $object-margin auto;
     }
   
   
@@ -129,15 +157,54 @@
     }
   }
 
+  #map:hover  {
+/* Need Javascript to deactivate cursor on map hover because it is not a child element */
+  }
+
+
+  /* BREAKS */
+  div.break {
+    background-image: url("../images/break1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: initial;
+    height: 100vh;
+    /*position: relative;*/
+  }
+
 
   /* HEADER */
+  header {
+    padding: 5em 0em;
+    background-image: url("../images/bgtest6.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    p {
+      font-size: 80%;
+      text-align: center;
+      font-style: italic;
+    }
+  }
+
+  #glasses {
+    width: 50%;
+    opacity: 0.8;
+  }
   
   
   /* INTRODUCTION */
   #intro {
     position: relative;
   }
+
+  #img1 {
+    width: 50%;
+    z-index: 1;
+    transform: rotate(9deg);
+    margin-left: 60%;
+  }
   
+  /*
   #img1 {
     position: absolute;
     width: 50%;
@@ -145,7 +212,7 @@
     top: 0;
     right: -10%;
     transform: rotate(9deg);
-  }
+  }*/
   
   #img2 {
     width: 50%;
@@ -160,6 +227,57 @@
     top: 30em;
     transform: rotate(-3deg);
   }
+
+
+/* ABOUT THE TAKAHE */
+
+#takahe-chart {
+  width: 50%;
+  display: inline-block;
+}
+
+
+/* EXTINCT */
+#moa {
+  width: 50%;
+}
+
+
+
+  /* TABLE */
+  #wings {
+    table {
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    th, td {
+      padding: 1em;
+      text-align: left;
+    }
+
+    tr {
+    /*border-top: 1px solid $text-color;*/
+    }
+
+    tr:nth-child(even) {
+      background-color: $reveal-color;
+    }
+  }
+
+
+
+  #map-image {
+    width: 100%;
+  }
+
+
+  /* ORBELL */
+#pipe {
+  width: 50%;
+  float: right;
+}
+
   
   
 
@@ -199,6 +317,10 @@
 }
 
 
+/* FOOTER */
+#binoculars {
+  width: 35%;
+}
 
   
 
@@ -260,3 +382,6 @@
   #t-extinction::after {
       content: 'extinct';
   }
+
+
+  
