@@ -138,12 +138,17 @@ a {
   a:hover {
     cursor: pointer; }
 
+#map:hover {
+  /* Need Javascript to deactivate cursor on map hover because it is not a child element */ }
+
 /* BREAKS */
 div.break {
   background-image: url("../images/break1.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh; }
+  background-position: initial;
+  height: 100vh;
+  /*position: relative;*/ }
 
 /* HEADER */
 header {
@@ -157,7 +162,8 @@ header {
     font-style: italic; }
 
 #glasses {
-  width: 50%; }
+  width: 50%;
+  opacity: 0.8; }
 
 /* INTRODUCTION */
 #intro {
@@ -183,6 +189,15 @@ header {
   top: 30em;
   transform: rotate(-3deg); }
 
+/* ABOUT THE TAKAHE */
+#takahe-chart {
+  width: 50%;
+  display: inline-block; }
+
+/* EXTINCT */
+#moa {
+  width: 50%; }
+
 /* TABLE */
 #wings table {
   border-collapse: collapse;
@@ -197,6 +212,14 @@ header {
 
 #wings tr:nth-child(even) {
   background-color: #00aeef; }
+
+#map-image {
+  width: 100%; }
+
+/* ORBELL */
+#pipe {
+  width: 50%;
+  float: right; }
 
 /* POSTCARD TABLE */
 #new-zealand {

@@ -145,13 +145,19 @@
     }
   }
 
+  #map:hover  {
+/* Need Javascript to deactivate cursor on map hover because it is not a child element */
+  }
+
 
   /* BREAKS */
   div.break {
     background-image: url("../images/break1.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: initial;
     height: 100vh;
+    /*position: relative;*/
   }
 
 
@@ -170,6 +176,7 @@
 
   #glasses {
     width: 50%;
+    opacity: 0.8;
   }
   
   
@@ -202,6 +209,21 @@
   }
 
 
+/* ABOUT THE TAKAHE */
+
+#takahe-chart {
+  width: 50%;
+  display: inline-block;
+}
+
+
+/* EXTINCT */
+#moa {
+  width: 50%;
+}
+
+
+
   /* TABLE */
   #wings {
     table {
@@ -222,6 +244,20 @@
       background-color: $reveal-color;
     }
   }
+
+
+
+  #map-image {
+    width: 100%;
+  }
+
+
+  /* ORBELL */
+#pipe {
+  width: 50%;
+  float: right;
+}
+
   
   
 
