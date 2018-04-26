@@ -196,15 +196,14 @@
   #intro {
     position: relative;
   }
-
+/*
   #img1 {
     width: 50%;
     z-index: 1;
     transform: rotate(9deg);
     margin-left: 60%;
-  }
+  }*/
   
-  /*
   #img1 {
     position: absolute;
     width: 50%;
@@ -212,7 +211,7 @@
     top: 0;
     right: -10%;
     transform: rotate(9deg);
-  }*/
+  }
   
   #img2 {
     width: 50%;
@@ -230,10 +229,16 @@
 
 
 /* ABOUT THE TAKAHE */
+.flex-wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
 
 #takahe-chart {
-  width: 50%;
-  display: inline-block;
+  max-width: 35%;
+  transform: rotate(-7deg);
+  align-self: center;
 }
 
 
@@ -249,19 +254,30 @@
     table {
       border-collapse: collapse;
       width: 50%;
+      margin-top: 5em;
+    }
+
+    caption {
+      font-family: $title;
+      font-size: $fourth;
+      color: $cover-color;
+      margin-bottom: 1em;
     }
 
     th, td {
       padding: 1em;
       text-align: left;
+      border-right: 1px solid $cover-color;
+      &:nth-last-child(1) {
+        border-right: none;
+      }
     }
 
     tr {
-    /*border-top: 1px solid $text-color;*/
-    }
-
-    tr:nth-child(even) {
-      background-color: $reveal-color;
+      border-top: 1px solid $cover-color;
+      &:nth-child(1) {
+        border-top: none;
+      }
     }
   }
 

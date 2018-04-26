@@ -177,21 +177,21 @@ header {
 #intro {
   position: relative; }
 
-#img1 {
-  width: 50%;
-  z-index: 1;
-  transform: rotate(9deg);
-  margin-left: 60%; }
-
 /*
   #img1 {
-    position: absolute;
     width: 50%;
     z-index: 1;
-    top: 0;
-    right: -10%;
     transform: rotate(9deg);
+    margin-left: 60%;
   }*/
+#img1 {
+  position: absolute;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  right: -10%;
+  transform: rotate(9deg); }
+
 #img2 {
   width: 50%;
   transform: rotate(3deg); }
@@ -205,9 +205,15 @@ header {
   transform: rotate(-3deg); }
 
 /* ABOUT THE TAKAHE */
+.flex-wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: center; }
+
 #takahe-chart {
-  width: 50%;
-  display: inline-block; }
+  max-width: 35%;
+  transform: rotate(-7deg);
+  align-self: center; }
 
 /* EXTINCT */
 #moa {
@@ -216,17 +222,26 @@ header {
 /* TABLE */
 #wings table {
   border-collapse: collapse;
-  width: 50%; }
+  width: 50%;
+  margin-top: 5em; }
+
+#wings caption {
+  font-family: "Playfair Display", serif;
+  font-size: 1.414em;
+  color: #ec008c;
+  margin-bottom: 1em; }
 
 #wings th, #wings td {
   padding: 1em;
-  text-align: left; }
+  text-align: left;
+  border-right: 1px solid #ec008c; }
+  #wings th:nth-last-child(1), #wings td:nth-last-child(1) {
+    border-right: none; }
 
 #wings tr {
-  /*border-top: 1px solid $text-color;*/ }
-
-#wings tr:nth-child(even) {
-  background-color: #00aeef; }
+  border-top: 1px solid #ec008c; }
+  #wings tr:nth-child(1) {
+    border-top: none; }
 
 #map-image {
   width: 100%; }
