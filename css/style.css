@@ -269,9 +269,21 @@ caption {
   margin: -20em auto 2em auto; }
 
 /* ORBELL */
+#orbell {
+  position: absolute;
+  top: 0;
+  transform: rotate(-3deg); }
+
 #pipe {
-  width: 50%;
-  float: right; }
+  position: absolute;
+  right: 5em;
+  bottom: 15em;
+  width: 40%;
+  z-index: -1;
+  transform: rotate(-3deg); }
+
+.b5 {
+  margin-bottom: -10em; }
 
 /* CONSERVATION */
 #tag {
