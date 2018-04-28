@@ -151,18 +151,23 @@ a {
 
 /* BREAKS */
 div.break {
-  background-image: url("../images/break1.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: initial;
-  height: 100vh;
+  /*background-image: url("../images/break1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: initial;
+    height: 100vh;*/
   /*position: relative;*/
-  /* min-height */ }
+  /* min-height */
+  position: relative; }
+  div.break img.bg {
+    width: 100%;
+    z-index: 2;
+    opacity: 0.9; }
 
 /* HEADER */
 header {
   padding: 5em 0em;
-  background-image: url("../images/bgtest6.png");
+  background-image: url("../images/bgtest7.png");
   background-repeat: no-repeat;
   background-size: 100%; }
   header p {
@@ -176,7 +181,7 @@ header {
 
 /* INTRODUCTION */
 #intro {
-  position: relative; }
+  margin: 2em auto 0em auto; }
 
 /*
   #img1 {
@@ -185,25 +190,30 @@ header {
     transform: rotate(9deg);
     margin-left: 60%;
   }*/
-#img1 {
+#maori {
   position: absolute;
   width: 50%;
-  z-index: 1;
-  top: 0;
+  z-index: 3;
+  bottom: -5em;
   right: -10%;
   transform: rotate(9deg); }
 
-#img2 {
+#landscape {
+  position: absolute;
+  top: 0;
   width: 50%;
   transform: rotate(3deg); }
 
-#img3 {
+#sightings {
   position: absolute;
   width: 50%;
-  z-index: 1;
+  z-index: 3;
   left: 10em;
-  top: 30em;
-  transform: rotate(-3deg); }
+  top: 5em;
+  transform: rotate(-5deg); }
+
+.b2 {
+  margin-top: 3em; }
 
 /* ABOUT THE TAKAHE */
 .flex-wrapper {
@@ -212,9 +222,12 @@ header {
   align-items: center; }
 
 #takahe-chart {
-  max-width: 35%;
+  max-width: 40%;
   transform: rotate(-7deg);
   align-self: center; }
+
+.b3 {
+  margin: -20em auto 2em auto; }
 
 /* EXTINCT */
 #moa {
@@ -222,17 +235,17 @@ header {
   width: 35%; }
 
 /* TABLE */
+caption {
+  font-family: "Playfair Display", serif;
+  font-size: 1.414em;
+  color: #ec008c;
+  margin-bottom: 1em; }
+
 #wings table {
   border-collapse: collapse;
   width: 50%;
   margin-top: 5em;
   /*font-variant-numeric: lining-nums tabular-nums;*/ }
-
-#wings caption {
-  font-family: "Playfair Display", serif;
-  font-size: 1.414em;
-  color: #ec008c;
-  margin-bottom: 1em; }
 
 #wings th, #wings td {
   padding: 1em;
@@ -246,22 +259,38 @@ header {
   #wings tr:nth-child(1) {
     border-top: none; }
 
-#map-image {
+#map, #map-s {
   width: 100%; }
+
+#map-s {
+  display: none; }
+
+.b4 {
+  margin: -20em auto 2em auto; }
 
 /* ORBELL */
 #pipe {
   width: 50%;
   float: right; }
 
+/* CONSERVATION */
+#tag {
+  width: 40%;
+  margin-left: 0em; }
+
 /* POSTCARD TABLE */
 #new-zealand {
   position: relative; }
 
+#pc-front {
+  width: 50%;
+  transform: rotate(0deg); }
+
 #postcard {
   /*background-image: url("../images/postcard-back.png");
   background-size: contain;*/
-  width: 50%;
+  width: 40em;
+  min-width: 40em;
   margin: auto;
   position: absolute;
   top: 0;
@@ -277,12 +306,20 @@ header {
 #postcard table {
   opacity: 0.7;
   position: absolute;
-  top: 2em;
-  left: 8em;
+  top: 3em;
+  left: 3.5em;
   z-index: 2;
   width: 100%;
   text-align: left;
   font-style: italic; }
+  #postcard table caption {
+    text-align: left;
+    margin-bottom: 0.707em; }
+  #postcard table th {
+    font-family: "Playfair Display", serif; }
+  #postcard table td {
+    border-left: 1px solid #ec008c;
+    padding-left: 2em; }
 
 /* FOOTER */
 #binoculars {
@@ -344,3 +381,28 @@ footer {
 
 #t-extinction::after {
   content: 'extinct'; }
+
+/* TABLET */
+@media (max-width: 60em) {
+  header {
+    background-image: none; }
+  .bg {
+    display: none; }
+  .flex-wrapper {
+    flex-flow: column;
+    /*NEED SOME WAY TO CENTRE THESE*/ }
+  /* HEADER */
+  h1, h2, h3, h4 {
+    width: 90%; }
+  p {
+    width: 80%; }
+  /* PHOTOS */
+  #map {
+    display: none; }
+  #map-s {
+    display: block; } }
+
+/* MOBILE */
+@media (max-width: 35em) {
+  p {
+    width: 90%; } }
