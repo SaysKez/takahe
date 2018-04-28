@@ -296,7 +296,12 @@ caption {
 
 #pc-front {
   width: 50%;
-  transform: rotate(0deg); }
+  min-width: 40em;
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  z-index: 3; }
 
 #postcard {
   /*background-image: url("../images/postcard-back.png");
@@ -305,8 +310,9 @@ caption {
   min-width: 40em;
   margin: auto;
   position: absolute;
-  top: 0;
-  right: 0; }
+  top: 30%;
+  left: 40%;
+  z-index: 4; }
   #postcard img {
     margin: auto;
     position: absolute;
@@ -338,7 +344,7 @@ caption {
   width: 35%; }
 
 footer {
-  margin: 5em auto;
+  margin: 5em auto 20em auto;
   font-size: 65%;
   text-align: center; }
 
@@ -346,6 +352,10 @@ footer {
   margin-top: 3em;
   width: 6%;
   opacity: 0.7; }
+
+.b7 {
+  position: absolute;
+  bottom: 0; }
 
 /*
     img {
