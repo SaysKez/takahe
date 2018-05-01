@@ -164,19 +164,26 @@
 
   /* BREAKS */
   div.break {
-    background-image: url("../images/break1.png");
+    /*background-image: url("../images/break1.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: initial;
-    height: 100vh;
+    height: 100vh;*/
     /*position: relative;*/
+    /* min-height */
+    position: relative;
+    img.bg {
+      width: 100%;
+      z-index: 2;
+      opacity: 0.9;
+    }
   }
 
 
   /* HEADER */
   header {
     padding: 5em 0em;
-    background-image: url("../images/bgtest6.png");
+    background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: 100%;
     p {
@@ -194,90 +201,151 @@
   
   /* INTRODUCTION */
   #intro {
-    position: relative;
+    margin: 2em auto 0em auto;
   }
-
+/*
   #img1 {
     width: 50%;
     z-index: 1;
     transform: rotate(9deg);
     margin-left: 60%;
-  }
-  
-  /*
-  #img1 {
-    position: absolute;
-    width: 50%;
-    z-index: 1;
-    top: 0;
-    right: -10%;
-    transform: rotate(9deg);
   }*/
   
-  #img2 {
+  #maori {
+    position: absolute;
+    width: 50%;
+    z-index: 3;
+    bottom: -5em;
+    right: -10%;
+    transform: rotate(9deg);
+  }
+  
+  #landscape {
+    position: absolute;
+    top: 0;
     width: 50%;
     transform: rotate(3deg);
   }
   
-  #img3 {
+  #sightings {
     position: absolute;
     width: 50%;
-    z-index: 1;
+    z-index: 3;
     left: 10em;
-    top: 30em;
-    transform: rotate(-3deg);
+    top: 5em;
+    transform: rotate(-5deg);
+  }
+
+  .b2 {
+    margin-top: 3em;
   }
 
 
 /* ABOUT THE TAKAHE */
+.flex-wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
 
 #takahe-chart {
-  width: 50%;
-  display: inline-block;
+  max-width: 40%;
+  transform: rotate(-7deg);
+  align-self: center;
+}
+
+.b3 {
+  margin: -20em auto 2em auto;
 }
 
 
 /* EXTINCT */
 #moa {
-  width: 50%;
+  transform: rotate(8deg);
+  width: 35%;
 }
 
 
 
   /* TABLE */
+  caption {
+    font-family: $title;
+    font-size: $fourth;
+    color: $cover-color;
+    margin-bottom: 1em;
+  }
+
   #wings {
     table {
       border-collapse: collapse;
       width: 50%;
+      margin-top: 5em;
+      /*font-variant-numeric: lining-nums tabular-nums;*/
     }
 
     th, td {
       padding: 1em;
       text-align: left;
+      border-right: $border;
+      &:nth-last-child(1) {
+        border-right: none;
+      }
     }
 
     tr {
-    /*border-top: 1px solid $text-color;*/
-    }
-
-    tr:nth-child(even) {
-      background-color: $reveal-color;
+      border-top: $border;
+      &:nth-child(1) {
+        border-top: none;
+      }
     }
   }
 
 
 
-  #map-image {
+  #map, #map-s {
     width: 100%;
+  }
+
+  #map-s {
+    display: none;
+  }
+
+  .b4 {
+    margin: -20em auto 2em auto;
   }
 
 
   /* ORBELL */
-#pipe {
-  width: 50%;
-  float: right;
+#quest .break {
+  margin-top: 5em;
 }
 
+#orbell {
+  position: absolute;
+  top: 0;
+  transform: rotate(-3deg);
+  width: 45%;
+}
+
+#pipe {
+  position: absolute;
+  right: 5em;
+  bottom: 15em;
+  width: 40%;
+  z-index: -1;
+  transform: rotate(-3deg);
+}
+
+.b5 {
+  margin-bottom: -10em;
+}
+
+
+/* CONSERVATION */
+#tag {
+  width: 40%;
+  margin-left: 0em;
+}
   
   
 
@@ -286,14 +354,26 @@
   position: relative
 }
 
+#pc-front {
+  width: 50%;
+  min-width: 40em;
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  z-index: 3;
+}
+
 #postcard {
   /*background-image: url("../images/postcard-back.png");
   background-size: contain;*/
-  width: 50%;
+  width: 40em;
+  min-width: 40em;
   margin: auto;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 30%;
+  left: 40%;
+  z-index: 4;
   
   img {
     margin: auto;
@@ -308,12 +388,23 @@
 #postcard table{
   opacity: 0.7;
   position: absolute;
-  top: 2em;
-  left: 8em;
+  top: 3em;
+  left: 3.5em;
   z-index: 2;
   width: 100%;
   text-align: left;
-    font-style: italic;
+  font-style: italic;
+  caption {
+    text-align: left;
+    margin-bottom: $object-margin;
+  }
+  th {
+    font-family: $title;
+  }
+  td {
+    border-left: $border;
+    padding-left: 2em;
+  }
 }
 
 
@@ -322,6 +413,22 @@
   width: 35%;
 }
 
+footer {
+  margin: 5em auto 20em auto;
+  font-size: 65%;
+  text-align: center;
+}
+
+#stamp {
+  margin-top: 3em;
+  width: 6%;
+  opacity: 0.7;
+}
+
+.b7 {
+  position: absolute;
+  bottom: 0;
+}
   
 
   
@@ -385,3 +492,49 @@
 
 
   
+  /* TABLET */
+
+  @media (max-width: 60em) {
+    header {
+      background-image: none;
+    }
+
+    .bg {
+      display: none;
+    }
+
+    .flex-wrapper {
+      flex-flow: column;
+      /*NEED SOME WAY TO CENTRE THESE*/
+    }
+
+    /* HEADER */
+    h1, h2, h3, h4 {
+      width: 90%;
+    }
+
+    p {
+      width: 80%;
+    }
+
+
+    /* PHOTOS */
+
+    #map {
+      display: none;
+    }
+
+    #map-s {
+      display: block;
+    }
+  }
+
+
+
+  /* MOBILE */
+  @media (max-width: 35em) {
+    p {
+      width: 90%;
+    }
+
+  }
