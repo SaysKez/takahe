@@ -25,11 +25,6 @@ body {
   margin: auto;
   color: #302f30;
   background-color: #f4f2f2;
-  /*background-image: url("../images/bgtest1.png");
-      background-size: contain;*/
-  /* background-image:url("../images/background/creampaper.png");*/
-  /*  This pattern is downloaded from www.subtlepatterns.com 
-      If you need more, that's where to get'em. */
   overflow-x: hidden; }
 
 h1, h2, h3, h4 {
@@ -67,23 +62,13 @@ p, p .hidden-text {
   line-height: 1.75em;
   margin-bottom: 1.414em; }
 
-/*
-    p {
-      color: #000;
-      opacity: .7;
-    } */
 section {
   margin-bottom: 7.5em; }
 
-/* PHOTOS */
 blockquote {
   padding: 1em;
-  margin: 3em auto;
   width: 110%; }
   blockquote p {
-    /* background-image: url("../images/background/paper.png");
-      background-size: cover;
-      @include shadow(); */
     font-family: "Playfair Display", serif;
     font-size: 140%;
     font-style: italic;
@@ -93,6 +78,7 @@ blockquote {
     font-style: normal;
     letter-spacing: 0.4px; }
 
+/* PHOTOS */
 .photo {
   margin: 3em auto;
   -webkit-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
@@ -108,7 +94,7 @@ blockquote {
   display: block;
   position: absolute;
   transition: all .01s linear;
-  /*Change the time here depending on how fast you want the big circle to follow the cursor */
+  /*Change the time here depending on how fast the big circle should follow the cursor */
   transition: transform 0.5 ease-in-out;
   width: 250px;
   height: 250px;
@@ -146,10 +132,10 @@ a {
   a:hover {
     cursor: pointer; }
 
-#map:hover {
-  /* Need Javascript to deactivate cursor on map hover because it is not a child element */ }
-
 /* BREAKS */
+.br {
+  display: none; }
+
 div.break {
   /*background-image: url("../images/break1.png");
     background-repeat: no-repeat;
@@ -289,11 +275,6 @@ caption {
 .b5 {
   margin-bottom: -10em; }
 
-/* CONSERVATION */
-#tag {
-  width: 40%;
-  margin-left: 0em; }
-
 /* POSTCARD TABLE */
 #new-zealand {
   position: relative; }
@@ -412,21 +393,60 @@ footer {
 @media (max-width: 60em) {
   header {
     background-image: none; }
-  .bg {
-    display: none; }
   .flex-wrapper {
     flex-flow: column;
-    /*NEED SOME WAY TO CENTRE THESE*/ }
+    margin: auto;
+    width: 80%; }
   /* HEADER */
   h1, h2, h3, h4 {
     width: 90%; }
   p {
     width: 80%; }
   /* PHOTOS */
+  /*
+    #postcard, #postcard img  {
+      position: static;
+      transform: rotate(0deg);
+      display: block;
+      margin: auto;
+    }*/
+  .b2 {
+    width: 100%; }
+  #maori, #landscape, #sightings {
+    width: 60%; }
+  #landscape {
+    margin: 0em; }
+  #takahe-chart {
+    max-width: 60%; }
+  .b3, .b4 {
+    margin: -15em auto 2em; }
+  #moa {
+    width: 50%; }
   #map {
     display: none; }
   #map-s {
-    display: block; } }
+    display: block; }
+  #orbell {
+    width: 65%; }
+  #pipe {
+    bottom: -5em;
+    z-index: 2;
+    width: 50%; }
+  #postcard {
+    top: 3em;
+    left: 7em; }
+  #pc-front {
+    top: -10%;
+    left: -10%;
+    z-index: -2; }
+  /* TABLES */
+  #wings table {
+    width: 80%; }
+  /* SECTION MARGIN */
+  footer {
+    margin: 5em auto 0em auto; }
+    footer .br {
+      margin-top: -20em; } }
 
 /* MOBILE */
 @media (max-width: 35em) {

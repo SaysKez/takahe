@@ -16,11 +16,6 @@
       margin: auto;
       color: $text-color;
       background-color: $background-color;
-      /*background-image: url("../images/bgtest1.png");
-      background-size: contain;*/
-      /* background-image:url("../images/background/creampaper.png");*/
-      /*  This pattern is downloaded from www.subtlepatterns.com 
-      If you need more, that's where to get'em. */
       overflow-x: hidden;
     }
 
@@ -65,27 +60,16 @@
       line-height: 1.75em;
       margin-bottom: $fourth;
     }
-  
-    /*
-    p {
-      color: #000;
-      opacity: .7;
-    } */
     
     section {
       margin-bottom: 7.5em;
     }
 
 
-    /* PHOTOS */
     blockquote {
       padding: 1em;
-      margin: 3em auto;
       width: 110%;
       p {
-      /* background-image: url("../images/background/paper.png");
-      background-size: cover;
-      @include shadow(); */
       font-family: $title;
       font-size: 140%;
       font-style: italic;
@@ -98,6 +82,7 @@
     }
   }
     
+      /* PHOTOS */
     .photo {
       margin: 3em auto;
       @include shadow();
@@ -113,7 +98,7 @@
   #circle-hover {
     display: block;
     position: absolute;
-    transition: all .01s linear;/*Change the time here depending on how fast you want the big circle to follow the cursor */
+    transition: all .01s linear;/*Change the time here depending on how fast the big circle should follow the cursor */
     transition: transform 0.5 ease-in-out;
     width: 250px;
     height: 250px;
@@ -157,12 +142,12 @@
     }
   }
 
-  #map:hover  {
-/* Need Javascript to deactivate cursor on map hover because it is not a child element */
-  }
-
 
   /* BREAKS */
+  .br {
+    display: none;
+  }
+
   div.break {
     /*background-image: url("../images/break1.png");
     background-repeat: no-repeat;
@@ -340,13 +325,6 @@
   margin-bottom: -10em;
 }
 
-
-/* CONSERVATION */
-#tag {
-  width: 40%;
-  margin-left: 0em;
-}
-  
   
 
 /* POSTCARD TABLE */
@@ -499,13 +477,10 @@ footer {
       background-image: none;
     }
 
-    .bg {
-      display: none;
-    }
-
     .flex-wrapper {
       flex-flow: column;
-      /*NEED SOME WAY TO CENTRE THESE*/
+      margin: auto;
+      width: 80%;
     }
 
     /* HEADER */
@@ -520,12 +495,78 @@ footer {
 
     /* PHOTOS */
 
+    /*
+    #postcard, #postcard img  {
+      position: static;
+      transform: rotate(0deg);
+      display: block;
+      margin: auto;
+    }*/
+
+    .b2 {
+      width: 100%;
+    }
+
+    #maori, #landscape, #sightings {
+      width: 60%;
+    }
+
+    #landscape {
+      margin: 0em;
+    }
+
+    #takahe-chart{
+      max-width: 60%;
+    }
+
+    .b3, .b4 {
+      margin: -15em auto 2em;
+    }
+
+    #moa {
+      width: 50%;
+    }
+
     #map {
       display: none;
     }
 
     #map-s {
       display: block;
+    }
+
+    #orbell {
+      width: 65%;
+    }
+
+    #pipe {
+      bottom: -5em;
+      z-index: 2;
+      width: 50%;
+    }
+
+    #postcard {
+      top: 3em;
+      left: 7em;
+    }
+
+    #pc-front {
+      top: -10%;
+      left: -10%;
+      z-index: -2;
+    }
+
+    /* TABLES */
+    #wings table {
+      width: 80%;
+    }
+
+    /* SECTION MARGIN */
+    footer {
+      margin: 5em auto 0em auto;
+      .br {
+        margin-top: -20em;
+      }
     }
   }
 
