@@ -183,7 +183,7 @@
   /* HEADER */
   header {
     padding: 5em 0em;
-    background-image: url("../images/bgtest7.png");
+    background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: 100%;
     p {
@@ -316,10 +316,15 @@
 
 
   /* ORBELL */
+#quest .break {
+  margin-top: 5em;
+}
+
 #orbell {
   position: absolute;
   top: 0;
   transform: rotate(-3deg);
+  width: 45%;
 }
 
 #pipe {
