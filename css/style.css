@@ -307,6 +307,7 @@ caption {
     z-index: 1; }
 
 #postcard table {
+  border-collapse: collapse;
   opacity: 0.7;
   position: absolute;
   top: 3em;
@@ -325,7 +326,7 @@ caption {
     padding-left: 2em; }
 
 /* FOOTER */
-#binoculars {
+#binos {
   width: 35%; }
 
 footer {
@@ -413,15 +414,15 @@ footer {
   .b2 {
     width: 100%; }
   #maori, #landscape, #sightings {
-    width: 60%; }
+    width: 70%; }
   #landscape {
     margin: 0em; }
   #takahe-chart {
-    max-width: 60%; }
+    max-width: 70%; }
   .b3, .b4 {
     margin: -15em auto 2em; }
   #moa {
-    width: 50%; }
+    width: 60%; }
   #map {
     display: none; }
   #map-s {
@@ -439,16 +440,56 @@ footer {
     top: -10%;
     left: -10%;
     z-index: -2; }
+  #binos {
+    width: 50%; }
   /* TABLES */
   #wings table {
     width: 80%; }
   /* SECTION MARGIN */
   footer {
-    margin: 5em auto 0em auto; }
-    footer .br {
-      margin-top: -20em; } }
+    margin: 5em auto 10em auto; } }
 
 /* MOBILE */
-@media (max-width: 35em) {
+@media (max-width: 46em) {
+  h1 {
+    font-size: 3em; }
+  h2 {
+    font-size: 1.5em; }
   p {
-    width: 90%; } }
+    width: 90%; }
+  #glasses {
+    width: 100%; }
+  /* BREAKS */
+  .bg {
+    display: none; }
+  .b7, #nz-s {
+    display: block; }
+  /* PHOTOS */
+  #maori, #landscape, #sightings, #orbell, #pipe, #pc-front, #postcard {
+    position: static;
+    display: block;
+    width: 100%; }
+  #maori {
+    margin-right: -3em;
+    transform: rotate(5deg); }
+  #landscape {
+    margin-left: -3em; }
+  #sightings {
+    margin-right: -3em;
+    margin-top: -6em; }
+  #takahe-chart {
+    max-width: 100%;
+    transform: rotate(-5deg); }
+  #moa {
+    width: 90%;
+    transform: rotate(5deg); }
+  /* POSTCARD */
+  #pc-front {
+    min-width: auto; }
+  #postcard img {
+    display: none; }
+  #postcard table {
+    position: static;
+    width: 90%;
+    display: block;
+    margin: auto; } }
