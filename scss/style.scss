@@ -91,11 +91,13 @@
     .photo {
       margin: 3em auto;
       @include shadow();
+      max-width: 60em;
     }
 
     .object {
       display: block;
       margin: $object-margin auto;
+      max-width: 70em;
     }
   
   
@@ -662,6 +664,10 @@ footer {
     #moa {
       width: 90%;
       transform: rotate(5deg);
+    }
+
+    #binos {
+      width: 70%;
     }
 
     /* POSTCARD */

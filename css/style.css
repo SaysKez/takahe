@@ -87,11 +87,13 @@ small {
   margin: 3em auto;
   -webkit-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15); }
+  box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
+  max-width: 60em; }
 
 .object {
   display: block;
-  margin: 0.707em auto; }
+  margin: 0.707em auto;
+  max-width: 70em; }
 
 /* CURSOR */
 #circle-hover {
@@ -505,6 +507,8 @@ footer {
   #moa {
     width: 90%;
     transform: rotate(5deg); }
+  #binos {
+    width: 70%; }
   /* POSTCARD */
   #pc-front {
     min-width: auto;
