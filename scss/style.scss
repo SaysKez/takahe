@@ -19,6 +19,12 @@
       overflow-x: hidden;
     }
 
+    /* Apparently overflow-x hidden works in a resized browser but not on mobile if applied to body.
+    Need to have on an element inside body */
+    article, footer {
+      overflow-x: hidden;
+    }
+
     h1, h2, h3, h4 {
       text-align: center;
     }
