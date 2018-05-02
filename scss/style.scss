@@ -598,16 +598,42 @@ footer {
     }
 
     /* BREAKS */
-    .bg {
-      display: none;
-    }
-
-    .b7 {
+    .br {
       display: block;
     }
 
+    .bg, #pipe {
+      display: none;
+    }
+
+    .br1 {
+      margin: -6.5em auto -12em auto;
+    }
+    .br2 {
+      margin: -6.5em auto 2em auto;
+    }
+    .br3 {
+      margin: -18em auto 2em auto;
+    }
+    .br4 {
+      margin: -6.5em auto -15em auto;
+    }
+    .br5 {
+      margin: -6.5em auto -5em auto;
+    }
+    .br6 {
+      margin: -8em auto -5em auto;
+    }
+    .br7 {
+      margin-top: -10em;
+    }
+
+    footer {
+      margin: 5em auto 0em auto;
+    }
+
     /* PHOTOS */
-    #maori, #landscape, #sightings, #orbell, #pipe, #pc-front, #postcard {
+    #maori, #landscape, #sightings, #orbell, #pc-front, #postcard {
       position: static;
       display: block;
       width: 100%;
@@ -638,7 +664,6 @@ footer {
     }
 
     /* POSTCARD */
-
     #pc-front {
       min-width: auto;
       width: 110%;
@@ -646,6 +671,7 @@ footer {
 
     #postcard {
       min-width: auto;
+          /* FINALLY FOUND YOU! MIN-WIDTH PREVENTING CENTRING*/
       img {
         display: none;
       }
@@ -677,6 +703,4 @@ footer {
     #new-zealand h2 {
       margin-top: 1em;
     }
-
-
   }
