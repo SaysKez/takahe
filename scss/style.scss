@@ -597,7 +597,7 @@ footer {
       display: none;
     }
 
-    .b7, #nz-s {
+    .b7 {
       display: block;
     }
 
@@ -639,15 +639,37 @@ footer {
     }
 
     #postcard {
+      min-width: auto;
       img {
         display: none;
       }
       table {
         position: static;
-        width: 90%;
+        width: 80%;
         display: block;
         margin: auto;
+        caption {
+          text-align: center;
+        }
+        td {
+          padding: 0.5em 1em;
+          text-align: left;
+        }
+        th {
+          padding: 0.5em;
+          line-height: 1.5em;
+        }
       }
+      tr {
+        border-top: $border;
+        &:nth-child(1) {
+          border-top: none;
+        }
+      }
+    }
+
+    #new-zealand h2 {
+      margin-top: 1em;
     }
 
 

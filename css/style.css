@@ -462,7 +462,7 @@ footer {
   /* BREAKS */
   .bg {
     display: none; }
-  .b7, #nz-s {
+  .b7 {
     display: block; }
   /* PHOTOS */
   #maori, #landscape, #sightings, #orbell, #pipe, #pc-front, #postcard {
@@ -486,10 +486,26 @@ footer {
   /* POSTCARD */
   #pc-front {
     min-width: auto; }
-  #postcard img {
-    display: none; }
-  #postcard table {
-    position: static;
-    width: 90%;
-    display: block;
-    margin: auto; } }
+  #postcard {
+    min-width: auto; }
+    #postcard img {
+      display: none; }
+    #postcard table {
+      position: static;
+      width: 80%;
+      display: block;
+      margin: auto; }
+      #postcard table caption {
+        text-align: center; }
+      #postcard table td {
+        padding: 0.5em 1em;
+        text-align: left; }
+      #postcard table th {
+        padding: 0.5em;
+        line-height: 1.5em; }
+    #postcard tr {
+      border-top: 1px solid #ec008c; }
+      #postcard tr:nth-child(1) {
+        border-top: none; }
+  #new-zealand h2 {
+    margin-top: 1em; } }
