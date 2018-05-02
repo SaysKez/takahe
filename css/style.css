@@ -100,10 +100,10 @@ small {
   transition: all .01s linear;
   /*Change the time here depending on how fast the big circle should follow the cursor */
   transition: transform 0.5 ease-in-out;
-  width: 250px;
-  height: 250px;
-  margin-top: -125px;
-  margin-left: -125px;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
   z-index: 99;
   text-align: center;
   border: 1px solid #ec008c;
@@ -127,13 +127,15 @@ small {
 
 #cursor.on-link #circle-hover {
   transform: scale(1);
-  background: #ec008c;
   opacity: .3; }
 
-a {
+.link {
   z-index: 100;
-  position: relative; }
-  a:hover {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 7.5em; }
+  .link:hover {
     cursor: pointer; }
 
 /* BREAKS */
@@ -340,7 +342,7 @@ footer {
 
 #stamp {
   margin-top: 3em;
-  width: 6%;
+  width: 7.5em;
   opacity: 0.7; }
 
 .b7 {
