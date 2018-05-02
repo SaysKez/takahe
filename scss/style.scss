@@ -91,11 +91,13 @@
     .photo {
       margin: 3em auto;
       @include shadow();
+      max-width: 60em;
     }
 
     .object {
       display: block;
       margin: $object-margin auto;
+      max-width: 70em;
     }
   
   
@@ -105,10 +107,10 @@
     position: absolute;
     transition: all .01s linear;/*Change the time here depending on how fast the big circle should follow the cursor */
     transition: transform 0.5 ease-in-out;
-    width: 250px;
-    height: 250px;
-    margin-top: -125px;
-    margin-left: -125px;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
     z-index: 99;
     text-align: center;
     border: 1px solid $cover-color;
@@ -134,14 +136,15 @@
   
   #cursor.on-link #circle-hover {
     transform: scale(1);
-    background: rgba($cover-color, 1);
     opacity: .3;
   }
   
-  a {
+  .link {
     z-index: 100;
     position: relative;
-
+    display: block;
+    margin: auto;
+    width: 7.5em;
     &:hover {
         cursor: pointer;
     }
@@ -405,7 +408,7 @@ footer {
 
 #stamp {
   margin-top: 3em;
-  width: 6%;
+  width: 7.5em;
   opacity: 0.7;
 }
 
@@ -595,19 +598,46 @@ footer {
 
     #glasses {
       width: 100%;
+      margin: 2em auto;
     }
 
     /* BREAKS */
-    .bg {
-      display: none;
-    }
-
-    .b7 {
+    .br {
       display: block;
     }
 
+    .bg, #pipe {
+      display: none;
+    }
+
+    .br1 {
+      margin: -6.5em auto -12em auto;
+    }
+    .br2 {
+      margin: -6.5em auto 2em auto;
+    }
+    .br3 {
+      margin: -18em auto 2em auto;
+    }
+    .br4 {
+      margin: -6.5em auto -15em auto;
+    }
+    .br5 {
+      margin: -6.5em auto -5em auto;
+    }
+    .br6 {
+      margin: -8em auto -5em auto;
+    }
+    .br7 {
+      margin-top: -10em;
+    }
+
+    footer {
+      margin: 5em auto 0em auto;
+    }
+
     /* PHOTOS */
-    #maori, #landscape, #sightings, #orbell, #pipe, #pc-front, #postcard {
+    #maori, #landscape, #sightings, #orbell, #pc-front, #postcard {
       position: static;
       display: block;
       width: 100%;
@@ -637,8 +667,11 @@ footer {
       transform: rotate(5deg);
     }
 
-    /* POSTCARD */
+    #binos {
+      width: 70%;
+    }
 
+    /* POSTCARD */
     #pc-front {
       min-width: auto;
       width: 110%;
@@ -646,6 +679,7 @@ footer {
 
     #postcard {
       min-width: auto;
+          /* FINALLY FOUND YOU! MIN-WIDTH PREVENTING CENTRING*/
       img {
         display: none;
       }
@@ -677,6 +711,4 @@ footer {
     #new-zealand h2 {
       margin-top: 1em;
     }
-
-
   }

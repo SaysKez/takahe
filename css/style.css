@@ -87,11 +87,13 @@ small {
   margin: 3em auto;
   -webkit-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15); }
+  box-shadow: 4px 7px 14px 0px rgba(0, 0, 0, 0.15);
+  max-width: 60em; }
 
 .object {
   display: block;
-  margin: 0.707em auto; }
+  margin: 0.707em auto;
+  max-width: 70em; }
 
 /* CURSOR */
 #circle-hover {
@@ -100,10 +102,10 @@ small {
   transition: all .01s linear;
   /*Change the time here depending on how fast the big circle should follow the cursor */
   transition: transform 0.5 ease-in-out;
-  width: 250px;
-  height: 250px;
-  margin-top: -125px;
-  margin-left: -125px;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
   z-index: 99;
   text-align: center;
   border: 1px solid #ec008c;
@@ -127,13 +129,15 @@ small {
 
 #cursor.on-link #circle-hover {
   transform: scale(1);
-  background: #ec008c;
   opacity: .3; }
 
-a {
+.link {
   z-index: 100;
-  position: relative; }
-  a:hover {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 7.5em; }
+  .link:hover {
     cursor: pointer; }
 
 /* BREAKS */
@@ -340,7 +344,7 @@ footer {
 
 #stamp {
   margin-top: 3em;
-  width: 6%;
+  width: 7.5em;
   opacity: 0.7; }
 
 .b7 {
@@ -462,14 +466,31 @@ footer {
   p {
     width: 90%; }
   #glasses {
-    width: 100%; }
+    width: 100%;
+    margin: 2em auto; }
   /* BREAKS */
-  .bg {
-    display: none; }
-  .b7 {
+  .br {
     display: block; }
+  .bg, #pipe {
+    display: none; }
+  .br1 {
+    margin: -6.5em auto -12em auto; }
+  .br2 {
+    margin: -6.5em auto 2em auto; }
+  .br3 {
+    margin: -18em auto 2em auto; }
+  .br4 {
+    margin: -6.5em auto -15em auto; }
+  .br5 {
+    margin: -6.5em auto -5em auto; }
+  .br6 {
+    margin: -8em auto -5em auto; }
+  .br7 {
+    margin-top: -10em; }
+  footer {
+    margin: 5em auto 0em auto; }
   /* PHOTOS */
-  #maori, #landscape, #sightings, #orbell, #pipe, #pc-front, #postcard {
+  #maori, #landscape, #sightings, #orbell, #pc-front, #postcard {
     position: static;
     display: block;
     width: 100%; }
@@ -487,12 +508,15 @@ footer {
   #moa {
     width: 90%;
     transform: rotate(5deg); }
+  #binos {
+    width: 70%; }
   /* POSTCARD */
   #pc-front {
     min-width: auto;
     width: 110%; }
   #postcard {
-    min-width: auto; }
+    min-width: auto;
+    /* FINALLY FOUND YOU! MIN-WIDTH PREVENTING CENTRING*/ }
     #postcard img {
       display: none; }
     #postcard table {
