@@ -30,6 +30,7 @@ body {
 /* Apparently overflow-x hidden works in a resized browser but not on mobile if applied to body.
     Need to have on an element inside body */
 article, footer {
+  width: 100%;
   overflow-x: hidden; }
 
 h1, h2, h3, h4 {
