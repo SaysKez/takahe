@@ -78,6 +78,10 @@ blockquote {
     font-style: normal;
     letter-spacing: 0.4px; }
 
+small {
+  font-size: 75%;
+  font-style: italic; }
+
 /* PHOTOS */
 .photo {
   margin: 3em auto;
@@ -485,7 +489,8 @@ footer {
     transform: rotate(5deg); }
   /* POSTCARD */
   #pc-front {
-    min-width: auto; }
+    min-width: auto;
+    width: 110%; }
   #postcard {
     min-width: auto; }
     #postcard img {

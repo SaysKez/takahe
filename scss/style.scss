@@ -81,6 +81,11 @@
       letter-spacing: 0.4px;
     }
   }
+
+    small {
+      font-size: 75%;
+      font-style: italic;
+    }
     
       /* PHOTOS */
     .photo {
@@ -636,6 +641,7 @@ footer {
 
     #pc-front {
       min-width: auto;
+      width: 110%;
     }
 
     #postcard {
