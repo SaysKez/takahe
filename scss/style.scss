@@ -68,6 +68,17 @@
       margin-bottom: $fourth;
     }
     
+    p a {
+      position: relative;
+      z-index: 1004;
+      text-decoration: none;
+      color: $text-color;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: $reveal-color;
+      }
+    }
+
     section {
       margin-bottom: 7.5em;
     }
