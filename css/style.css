@@ -200,14 +200,16 @@ header {
 
 #landscape {
   position: absolute;
-  top: 0;
+  z-index: 3;
+  top: 0em;
+  left: 0em;
   width: 50%;
   transform: rotate(3deg); }
 
 #sightings {
   position: absolute;
   width: 50%;
-  z-index: 3;
+  z-index: 4;
   left: 10em;
   top: 5em;
   transform: rotate(-5deg); }
@@ -274,7 +276,9 @@ caption {
 
 #orbell {
   position: absolute;
-  top: 0;
+  z-index: 3;
+  top: 0em;
+  left: 0em;
   transform: rotate(-3deg);
   width: 45%; }
 
