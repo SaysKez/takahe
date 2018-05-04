@@ -37,10 +37,12 @@
 
                     <img src="img/glasses.png" alt="spectacles" class="object" id="glasses">
                     <!--<p>Use the lens, uncover the secrets</p>-->
-                    
+
+                    <p id="ex">Drag the lens to uncover the secrets of the takahe</p>
                     <h3>The National Geographic Magazine</h3>
                     <h4>Organised for the Increase and Diffusion of Geographic Knowledge</h4>
                     <p>March, 1952, Volume CI, Number Three</p>
+
                 </header>
                 <img src="img/b1.png" alt="takahe tracks in the ferns" class="br br1">
 
@@ -337,7 +339,21 @@
             <img src="img/b7.png" alt="Ferns" class="bg b7">
         </div>
 
+        <!-- SCRIPT FOR CURSOR-->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="js/script.js"></script>
+
+        <!-- SCRIPT FOR MOBILE CURSOR-->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src="js/jquery.ui.touch-punch.js"></script>
+
+        <script>
+            $( function() {
+            $( "#drag" ).draggable();
+            } );
+        </script>
+        <div id="drag" class="ui-widget-content">
+            <div id="m-circle"></div>
+        </div>
     </body>
 </html>

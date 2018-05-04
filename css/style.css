@@ -128,7 +128,7 @@ small {
   transform: scale(0.5);
   background: transparent; }
 
-#circle {
+#circle, #m-circle {
   display: block;
   position: absolute;
   margin: auto;
@@ -141,6 +141,9 @@ small {
   background-color: #ec008c;
   mix-blend-mode: multiply;
   opacity: .8; }
+
+#drag, #ex {
+  display: none; }
 
 #cursor.on-link #circle-hover {
   transform: scale(1);
@@ -478,6 +481,17 @@ footer {
 
 /* MOBILE */
 @media (max-width: 46em) {
+  /* TOUCH CURSOR */
+  #cursor {
+    display: none; }
+  #drag {
+    display: block;
+    position: fixed;
+    bottom: 10em;
+    right: 3em;
+    z-index: 98;
+    mix-blend-mode: multiply; }
+  /* HEADER TEXT */
   h1 {
     font-size: 3em; }
   h2 {
@@ -488,7 +502,7 @@ footer {
     width: 100%;
     margin: 2em auto; }
   /* BREAKS */
-  .br {
+  .br, #ex {
     display: block; }
   .bg, #pipe {
     display: none; }
