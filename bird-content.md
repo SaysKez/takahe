@@ -17,13 +17,13 @@ In New Zealand's rugged Fiordland a bird thought extinct for fifty years is stru
 
 Rediscovery of this flightless bird, the large, brilliant-hued native rail which the Maoris called takahea, meaning “wandering at large,” excited almost as much interest in New Zealand as discovery of a living passenger pigeon would arouse in America.
 
-To zoologists and bird lovers throughout the world, reappearance of takahea, now called the takahe, was a notable event. They had a scientific name for the creature–*Notornis hochstetteri*, the first half of which means “bird of the south”–but they knew tantalizingly little about it and had considered it lost in the limbo of vanished species.
+To zoologists and bird lovers throughout the world, the reappearance of takahea, now called the takahe, was a notable event. They had a scientific name for the creature–*Notornis hochstetteri*, the first half of which means “bird of the south”–but they knew tantalizingly little about it and had considered it lost in the limbo of vanished species.
 
 To the rediscoverer, Dr. G. B. Orbell, a physician of Invercargill, New Zealand, the dramatic sight of a takahe alive came as the reward of years of patient and systematic search. Only four of the birds were known to science when he made his discovery on the shore of a lake in what is now called Notornis Valley. Since August, 1898, there had been no authentic report of one being caught, or even seen.
 
 ## Futile Wings Have Three-Foot Span
 
-A primitive type of large moor hen found only in New Zealand, the takahe is unlike any other member of the world-wide rail family to which it belongs. For example, despite its membership in an aquatic family, it avoids swamps and rivers. It does, however, share some of the clan’s characteristics, such as a large frontal shield.
+A primitive type of large moor hen found only in New Zealand, the takahe is unlike any other member of the worldwide rail family to which it belongs. For example, despite its membership in an aquatic family, it avoids swamps and rivers. It does, however, share some of the clan’s characteristics, such as a large frontal shield.
 
 The full-grown takahe stands some twenty inches high and weighs about six pounds. The wings, though incapable of flight, may have a three-foot span.
 
