@@ -128,7 +128,7 @@ small {
   transform: scale(0.5);
   background: transparent; }
 
-#circle, #m-circle {
+#circle, #m-circle, #drag {
   display: block;
   position: absolute;
   margin: auto;
